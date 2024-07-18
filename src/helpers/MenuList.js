@@ -1,39 +1,39 @@
-import Pepperoni from "../assets/pepperoni.jpg";
-import Margherita from "../assets/margherita.jpg";
-import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
-import Vegan from "../assets/vegan.jpg";
-import Pineapple from "../assets/pineapple.jpg";
-import Expensive from "../assets/expensive.jpg";
+import Meat from "../assets/meat.jpg"
+import Neapolitan from "../assets/neapolitan.jpeg"
+import Special from "../assets/special.jpeg";
+import Vegan from "../assets/vegi.jpeg";
+import Pineapple from "../assets/pina.jpg";
+import Customize from "../assets/cus.jpeg";
 
-export const MenuList = [
-  {
-    name: "Pepperoni Pizza",
-    image: Pepperoni,
-    price: 15.99,
-  },
-  {
-    name: "Margherita Pizza",
-    image: Margherita,
-    price: 11.99,
-  },
-  {
-    name: "PedroTech Special Pizza",
-    image: PedroTechSpecial,
-    price: 256.53,
-  },
-  {
-    name: "Vegan Pizza",
-    image: Vegan,
-    price: 17.99,
-  },
-  {
-    name: "Pineapple Pizza",
-    image: Pineapple,
-    price: 4.99,
-  },
-  {
-    name: "Very Expensive Pizza",
-    image: Expensive,
-    price: 1997.99,
-  },
+
+export const MenuList = [{
+        name: "Meat Pizza",
+        image: Meat,
+        price: 234.99,
+    },
+    {
+        name: "Neapolitan Pizza",
+        image: Neapolitan,
+        price: 159.99,
+    },
+    {
+        name: "Rise Special Pizza",
+        image: Special,
+        price: 224.55,
+    },
+    {
+        name: "Vegan Pizza",
+        image: Vegan,
+        price: 77.99,
+    },
+    {
+        name: "Pineapple Pizza",
+        image: Pineapple,
+        price: 99.99,
+    },
+    {
+        name: "Customize Pizza",
+        image: Customize,
+        price: 399.99,
+    },
 ];
